@@ -1,0 +1,28 @@
+# Data (download from Kaggle, see README)
+data/
+*.csv
+*.csv.zip
+RAW_recipes*
+
+# Model artifacts and intermediate arrays (too large for GitHub)
+models/
+*.keras
+*.h5
+*.npy
+*.pkl
+*.zip
+bpe_corpus*.txt
+*.model
+*.vocab
+
+# Python / Jupyter / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
